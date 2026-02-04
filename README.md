@@ -4,15 +4,15 @@ A fully normalized, ACID-compliant PostgreSQL database powering a multi-branch a
 
 ---
 
-## 💼 Business Impact Delivered
+## 💼 Potentail Business Impact
 
-| Capability | Business Outcome | Quantifiable Value |
+| Capability | Business Outcome | Value |
 |------------|------------------|-------------------|
-| **High-Value Customer Identification** | Targeted retention of top 20% revenue-generating clients | +15% repeat booking rate through personalised loyalty programmes |
-| **Real-Time Inventory Intelligence** | Eliminated stockouts of critical parts during peak service hours | 22% reduction in technician idle time waiting for parts |
-| **Technician Performance Analytics** | Data-driven scheduling of high-performing staff to complex jobs | 18% increase in workshop throughput without added headcount |
-| **Service Profitability Engine** | Identified 3 unprofitable services masked by high volume | £47K annual margin improvement through pricing optimisation |
-| **Branch Performance Benchmarking** | Enabled data-driven resource allocation across 4 locations | 12% reduction in underutilised staff hours |
+| **High-Value Customer Identification** | Targeted retention of top 20% revenue-generating clients | Repeat booking rate through personalised loyalty programmes |
+| **Real-Time Inventory Intelligence** | Eliminate stockouts of critical parts during peak service hours | Reduction in technician idle time waiting for parts |
+| **Technician Performance Analytics** | Data-driven scheduling of high-performing staff to complex jobs | Increase in workshop throughput without added headcount |
+| **Service Profitability Engine** | Identify unprofitable services masked by high volume | Better annual margin improvement through pricing optimisation |
+| **Branch Performance Benchmarking** | Enable data-driven resource allocation across branches | Reduction in underutilised staff hours |
 
 ---
 ## 🚀 Industry Applications
