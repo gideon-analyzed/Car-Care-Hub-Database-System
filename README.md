@@ -1,6 +1,6 @@
 # CarCare Hub Database System
 
-A fully normalized, ACID-compliant PostgreSQL database powering a multi-branch automotive service centre with **35+ interconnected tables**, **role-based security**, and **real-time analytics capabilities**. Engineered to handle 10,000+ monthly service appointments whilst maintaining sub-second query performance for critical operations. This system directly enables revenue growth through data-driven customer retention, inventory optimisation, and technician productivity analytics.
+A fully normalised, ACID-compliant PostgreSQL database powering a multi-branch automotive service centre with **35+ interconnected tables**, **role-based security** and **real-time analytics capabilities**. Engineered to handle 10,000+ monthly service appointments whilst maintaining sub-second query performance for critical operations. This system directly enables revenue growth through data-driven customer retention, inventory optimisation and technician productivity analytics.
 
 ---
 
@@ -32,7 +32,7 @@ This system architecture directly translates to:
 - **Concurrency Control**: Optimistic locking on critical tables (`booking`, `inventory_transaction`) preventing race conditions during peak booking windows
 - **Indexing Strategy**: 18+ purpose-built indexes (B-tree, partial, composite) reducing critical query latency by 94%
 - **Partitioning Ready**: Time-series tables (`inventory_transaction`, `booking`) structured for monthly partitioning at scale
-- **Audit Trail**: Immutable `staff_audit_log` capturing all sensitive data modifications for SOX compliance
+- **Audit Trail**: Immutable `staff_audit_log` capturing all sensitive data modifications for SOX compliance (Sections 302, 404, 802) or UK Companies Act 2006
 
 ### Security Implementation (Zero-Trust Model)
 ```sql
@@ -57,7 +57,7 @@ GRANT ALL PRIVILEGES ON ALL TABLES TO cch_manager;             -- Managers have 
 
 | Category | Specific Competencies |
 |----------|----------------------|
-| **Database Design** | Normalisation (3NF), ERD modelling, relationship integrity, surrogate vs natural keys |
+| **Database Design** | Normalisation (3NF), ERD modelling, relationship integrity, alternate keys |
 | **SQL Mastery** | Complex joins, window functions, CTEs, set operations, query optimisation |
 | **Performance Engineering** | Index strategy design, materialised views, partitioning architecture, EXPLAIN ANALYZE |
 | **Security Implementation** | RBAC, row-level security, audit trails, principle of least privilege |
@@ -76,16 +76,14 @@ GRANT ALL PRIVILEGES ON ALL TABLES TO cch_manager;             -- Managers have 
 - **Branch Performance Benchmarking**: Cross-location comparison for resource optimisation
 
 ### Financial Reporting Modules
-- **Revenue Tracking**: Monthly, quarterly, and annual performance metrics
-- **Cost Analysis**: Labour, parts, and overhead allocation by service type
-- **Profit Margins**: Granular profitability analysis by customer, service, and branch
-- **Payment Processing**: Multi-method payment tracking with reconciliation capabilities
+- **Revenue Tracking**: Monthly, quarterly and annual performance metrics
+- **Cost Analysis**: Labour, parts and overhead allocation by service type
+- **Profit Margins**: Granular profitability analysis by customer, service and branch
 
 ### Operational Intelligence
 - **Booking Optimisation**: Peak hour analysis and capacity planning
 - **Staff Utilisation**: Productivity metrics and scheduling efficiency
 - **Customer Journey Mapping**: Touchpoint analysis and satisfaction correlation
-- **Supply Chain Visibility**: Vendor performance and inventory turnover metrics
 
 ---
 
@@ -99,14 +97,6 @@ GRANT ALL PRIVILEGES ON ALL TABLES TO cch_manager;             -- Managers have 
 
 ### Advanced Capabilities
 - **Predictive Analytics**: Customer churn prediction and service demand forecasting
-- **Automated Workflows**: Booking reminders, inventory alerts, and performance notifications
+- **Automated Workflows**: Booking reminders, inventory alerts and performance notifications
 - **Integration Ready**: API-compatible design for third-party systems
 - **Mobile-Responsive**: Optimised for tablet and smartphone access
-
-### Data Governance
-- **Quality Assurance**: Automated validation and cleansing protocols
-- **Backup & Recovery**: Point-in-time recovery with 99.9% uptime SLA
-- **Disaster Recovery**: Geographic replication for business continuity
-- **Compliance Ready**: Audit trails for SOX, GDPR, and industry-specific regulations
-
-
